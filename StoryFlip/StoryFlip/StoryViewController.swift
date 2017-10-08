@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import MobileCoreServices
+import Regift
 
 class StoryViewController: UIViewController {
-
-    @IBOutlet weak var imageView: UIImageView!
-    
+//    NSURL *sourceMovieURL = [NSURL fileURLWithPath:somePath];
+//    AVURLAsset *sourceAsset = [AVURLAsset URLAssetWithURL:sourceMovieURL options:nil];
+//    CMTime duration = sourceAsset.duration;
     var progressV: UIView?
     var timer: Timer?
     var time: Float?
@@ -20,12 +22,24 @@ class StoryViewController: UIViewController {
     var selectedIndex = 0
     var storiesCount: Int!
     var barArray = [UIProgressView]()
+    var imgView: UIImageView!
+    
+    @IBOutlet weak var imageView: UIImageView!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Regift
         // Do any additional setup after loading the view, typically from a nib.
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tapBlurButton(_:)))
         tapGesture.numberOfTapsRequired = 1
         self.view.addGestureRecognizer(tapGesture)
+        
+        imgView = UIImageView()
+        imgView.frame = CGRect(x: 0.0, y: 0.0, width: self.view.frame.width, height: self.view.frame.height)
+        self.view.addSubview(imgView)
+
         startStories(numberOfStories: 3)
     }
     
@@ -34,6 +48,7 @@ class StoryViewController: UIViewController {
         if (selectedIndex > storiesCount - 1) {
             //TODO
             print("TODO")
+            self.dismiss(animated: true, completion: nil)
         }
         else {
             redraw(index: selectedIndex - 1)
@@ -86,22 +101,45 @@ class StoryViewController: UIViewController {
             barArray.append(progressView)
             count += 1
         }
+        redrawAgain(index: 0)
         timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector:#selector(StoryViewController.setProgres), userInfo: nil, repeats: true)
         setProgres()
-    }
-    
-    func setProgres() {
-        let bar = barArray[selectedIndex]
-        change(progressBar: bar)
-        imageView.image = UIImage(named: "pic\(selectedIndex + 1)")
-        selectedIndex += 1
-        if (selectedIndex > storiesCount - 1) {
-            timer?.invalidate()
+        let filePath = ""
+        let extensions = NSURL(fileURLWithPath: filePath).pathExtension
+        let uti = UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, extensions as! CFString, nil)
+        if UTTypeConformsTo((uti?.takeRetainedValue())!, kUTTypeImage) {
+            print("This is an image!")
         }
     }
     
+    func redrawAgain(index: Int) {
+        timer?.invalidate()
+        let bar = barArray[index]
+        bar.removeFromSuperview()
+        let progressView = UIProgressView()
+        progressView.progress = 0.0
+        progressView.frame = bar.frame
+        progressView.progressTintColor = UIColor.red
+        progressView.trackTintColor = UIColor.white
+        progressV?.addSubview(progressView)
+        barArray[index] = progressView
+    }
+    
+    func setProgres() {
+        if (selectedIndex > storiesCount - 1) {
+            timer?.invalidate()
+            self.dismiss(animated: true, completion: nil)
+        }
+        else {
+            let bar = barArray[selectedIndex]
+            change(progressBar: bar)
+            imgView.image = UIImage(named: "pic\(selectedIndex + 1)")
+            selectedIndex += 1
+        }
+    }
+    
+    
     func change(progressBar: UIProgressView){
-        
         progressBar.setProgress(0.01, animated: true)
         
         UIView.animate(withDuration: 5, delay: 0.0, options: [.curveLinear, .allowUserInteraction, .beginFromCurrentState], animations: {
@@ -109,15 +147,23 @@ class StoryViewController: UIViewController {
         }, completion: nil)
     }
     
-    func change1(progressBar: UIProgressView){
-        
-        UIView.animate(withDuration: 5.0, animations: {
-            progressBar.setProgress(1.0, animated: true)
-        }) { (result) in
-        }
-    }
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+}
+
+extension UIProgressView {
+    
+    func animate(duration: Double) {
+        
+        
     }
 
 

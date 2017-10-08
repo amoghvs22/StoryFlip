@@ -10,20 +10,21 @@ import UIKit
 
 class CustomCell: UICollectionViewCell {
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        self.backgroundColor = UIColor.white
-        self.clipsToBounds = true
+    var info: UserInfo?
+    var cellImage: UIImageView!
+    var label: UILabel!
+    func setupCell() {
+        cellImage = UIImageView()
+        cellImage.frame = CGRect(x: 0.0, y: 0.0, width: self.frame.size.width, height: self.frame.size.height - 20.0)
+        cellImage.contentMode = .scaleAspectFill
+        cellImage.isUserInteractionEnabled = true
+        let imageSize = CGSize(width: 73, height: 73)
+        let data = UIImageJPEGRepresentation((info?.profileImage!)!, 1.0)
+        cellImage.image = UIImage.init(data: data!)?.makeCornerRadius(imageSize: imageSize)
         
-        //        self.imageView = UIImageView(image:UIImage(named: "placeholder"))
-        //        self.imageView?.frame = CGRect(x: 0.0, y: 0.0, width: self.frame.size.width, height: self.frame.size.height)
-        //        self.imageView?.layer.cornerRadius = 100/2
-        //        self.addSubview(imageView!)
-        //        self.layer.cornerRadius = 100/2
-        //
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        label = UILabel(frame: CGRect(x: 0.0, y: cellImage.frame.size.height + 5.0, width:self.frame.size.width, height: 15.0))
+        label.text = info?.userName!
+        self.addSubview(cellImage)
+        self.addSubview(label)
     }
 }

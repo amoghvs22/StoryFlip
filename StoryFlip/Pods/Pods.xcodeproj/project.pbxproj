@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C036BC317564475646CF02672A31DED /* Pods-StoryFlipUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CB43F9589773CE677B6DF0EEBBFB55 /* Pods-StoryFlipUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A79D72FE09A1360DE502F0AC7609D04 /* Pods-StoryFlipUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD66C4A7036DE1C27DB8CE8294B5314 /* Pods-StoryFlipUITests-dummy.m */; };
+		2B8E27BABF9B455ABD1917EA3810AB5C /* Pods-StoryFlip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BF483CC10897A3F1CEFC965DDAB143 /* Pods-StoryFlip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D435E97D8BBC6841147CEA24935A615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5E671D1CBDB5F269A60C50ADC7770422 /* Regift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CEA1FE352F3355E0A584FCB306F854 /* Regift.swift */; };
+		790D302F4C1CC70B86AE07C8EB05B780 /* Regift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB33F6DF5A239D7BF12C1BF6B9B4A3E /* Regift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC0ECCA728796691F0573A53F3FB1C8 /* Pods-StoryFlipTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1E93647478D28B5457EFE2D9A1BE /* Pods-StoryFlipTests-dummy.m */; };
+		8E78B6F440EE8D9A8925C98A10D85D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		98184C541B13C5BB9F08202BEA0D2964 /* AVAssetImageGeneratorTimePoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816D85EE55E688F13091BC1263130FB /* AVAssetImageGeneratorTimePoints.swift */; };
+		BFC6EFC595908D77DD65DB956700C706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C668E220F77E0ED0DCC9056160B3DED1 /* Regift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D74BEE7AB931B8CA3CF10BC9D6B0804 /* Regift-dummy.m */; };
+		E67D9B172F619C9E1DE9A074D975A2BC /* Regift.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7626C1CB4B5EB81FB6F876B0AA5DBE /* Regift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE303B33F6E058E57225116083688032 /* Pods-StoryFlipTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA265C91DAE7E234A8D2AD0269F53B41 /* Pods-StoryFlipTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C42F89A849CF7AFF2C61F169EC2EAD /* Pods-StoryFlip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F521889C0319898427B35A2406D5FB83 /* Pods-StoryFlip-dummy.m */; };
+		FCB1DD7D68685F9B5B9B7AC24E5F58DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5212E89202116FC6EEB2207639374D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D347C3A320BF5A5964AEA89C5DC4FF7C;
+			remoteInfo = Regift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC596FFF12CBD0B149FFF5BFE73D66F /* Pods-StoryFlip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoryFlip-frameworks.sh"; sourceTree = "<group>"; };
+		11BF483CC10897A3F1CEFC965DDAB143 /* Pods-StoryFlip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StoryFlip-umbrella.h"; sourceTree = "<group>"; };
+		138888D019A287D2D06A135D3ADAD36F /* Pods-StoryFlipUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoryFlipUITests-frameworks.sh"; sourceTree = "<group>"; };
+		26CEA1FE352F3355E0A584FCB306F854 /* Regift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regift.swift; path = Regift/Regift.swift; sourceTree = "<group>"; };
+		2DB0812360D9CEC870F8FF0941E7591B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31888157212CE83080F535E273320651 /* Pods_StoryFlip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StoryFlip.framework; path = "Pods-StoryFlip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DDEEE30AB187A3B10DBC84B2DB9144 /* Pods-StoryFlipTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoryFlipTests-resources.sh"; sourceTree = "<group>"; };
+		35C024FA0C4AE39FFF9AE95306F25802 /* Pods-StoryFlipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoryFlipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36B6B5E388B836B85080933A09E4A0A5 /* Regift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Regift.modulemap; sourceTree = "<group>"; };
+		3A8C912581EE5E44FCE4A3573DF6FAA0 /* Pods-StoryFlipUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StoryFlipUITests.modulemap"; sourceTree = "<group>"; };
+		403E99045EF6306E657C58DA4D13BACA /* Pods-StoryFlipTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoryFlipTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4203C411E44FFE3F674B9B47102C3D44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD66C4A7036DE1C27DB8CE8294B5314 /* Pods-StoryFlipUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoryFlipUITests-dummy.m"; sourceTree = "<group>"; };
+		5B7626C1CB4B5EB81FB6F876B0AA5DBE /* Regift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Regift.h; path = Regift/Regift.h; sourceTree = "<group>"; };
+		5DB8130E518BE0AD8948E939473E6B06 /* Pods-StoryFlipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoryFlipUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68BD478020C8B324261EA347A4DC51F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EE1E93647478D28B5457EFE2D9A1BE /* Pods-StoryFlipTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoryFlipTests-dummy.m"; sourceTree = "<group>"; };
+		6C989B12185A1E89FD798CA736F3B57A /* Pods-StoryFlip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoryFlip-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CCB5755E000A2366DEC543175ABBC57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CB43F9589773CE677B6DF0EEBBFB55 /* Pods-StoryFlipUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StoryFlipUITests-umbrella.h"; sourceTree = "<group>"; };
+		78DC995E8B0D77974916A318D1D0AF56 /* Pods-StoryFlipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoryFlipTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F28D0DE1070B03E70ED8B70098208C8 /* Pods-StoryFlip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StoryFlip.modulemap"; sourceTree = "<group>"; };
+		84EDBACCDAE663B9B027D257EAD4DC61 /* Pods_StoryFlipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StoryFlipTests.framework; path = "Pods-StoryFlipTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E59E9B3247D19FC75AE47B30745839B /* Pods-StoryFlip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoryFlip-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D830FCB770E55E57A97C55C8C3DBC6 /* Pods-StoryFlip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoryFlip.release.xcconfig"; sourceTree = "<group>"; };
+		9D12ACCC3122E1077602245A2B7EFD87 /* Pods-StoryFlipTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StoryFlipTests.modulemap"; sourceTree = "<group>"; };
+		9D74BEE7AB931B8CA3CF10BC9D6B0804 /* Regift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Regift-dummy.m"; sourceTree = "<group>"; };
+		9DF11FE93A81E4FC4850BA01979BE04F /* Pods-StoryFlipTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoryFlipTests-frameworks.sh"; sourceTree = "<group>"; };
+		AB58066BF889A89BAB8E14E00CE23A9A /* Regift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Regift.framework; path = Regift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAEDFAA3E6A52CBB9C2AA0CE356B4CF /* Pods-StoryFlipUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoryFlipUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B816D85EE55E688F13091BC1263130FB /* AVAssetImageGeneratorTimePoints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetImageGeneratorTimePoints.swift; path = Regift/AVAssetImageGeneratorTimePoints.swift; sourceTree = "<group>"; };
+		BC257CDA3A0C64EB48C154483ACBBAAF /* Pods-StoryFlipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoryFlipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA265C91DAE7E234A8D2AD0269F53B41 /* Pods-StoryFlipTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StoryFlipTests-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD365E023E4F5ABA4DA5306D22EA1941 /* Pods-StoryFlipTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoryFlipTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9849F5B9A8DE08B79068BC8828CB84F /* Pods-StoryFlip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoryFlip-resources.sh"; sourceTree = "<group>"; };
+		DB2CBF9A144E59762A40C135E66C7387 /* Pods_StoryFlipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StoryFlipUITests.framework; path = "Pods-StoryFlipUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB33F6DF5A239D7BF12C1BF6B9B4A3E /* Regift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Regift-umbrella.h"; sourceTree = "<group>"; };
+		ECD1026AB62D011F470893364B9594B8 /* Pods-StoryFlipUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoryFlipUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EECFBB72C95B3E585C906F05A6669B50 /* Regift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Regift-prefix.pch"; sourceTree = "<group>"; };
+		F48B8E7B8C34C5511E160235F13C9003 /* Pods-StoryFlipUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoryFlipUITests-resources.sh"; sourceTree = "<group>"; };
+		F521889C0319898427B35A2406D5FB83 /* Pods-StoryFlip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoryFlip-dummy.m"; sourceTree = "<group>"; };
+		FD0815976D82A1C683AC1970ED663068 /* Pods-StoryFlip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoryFlip.debug.xcconfig"; sourceTree = "<group>"; };
+		FEB790D2D0AAE4509466E43DA18BB3AB /* Regift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Regift.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045BB2649B4A6F4FB08FE21217B0D5C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D435E97D8BBC6841147CEA24935A615 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB8948CB735D14BD0E3092024F0201D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC6EFC595908D77DD65DB956700C706 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5572B7B1342698DD6881124515B2C1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB1DD7D68685F9B5B9B7AC24E5F58DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE224133AADA31F04485F98C5E88188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E78B6F440EE8D9A8925C98A10D85D85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		391BB10351EBD669F85F43E4E8AC7BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31888157212CE83080F535E273320651 /* Pods_StoryFlip.framework */,
+				84EDBACCDAE663B9B027D257EAD4DC61 /* Pods_StoryFlipTests.framework */,
+				DB2CBF9A144E59762A40C135E66C7387 /* Pods_StoryFlipUITests.framework */,
+				AB58066BF889A89BAB8E14E00CE23A9A /* Regift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B5520E311A45B61AD275E1AE3505A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA4030D4861C2C2C2360F070D80F1C9D /* Regift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74751EC4A59C56E9B64277423CE79EE6 /* Pods-StoryFlipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4203C411E44FFE3F674B9B47102C3D44 /* Info.plist */,
+				3A8C912581EE5E44FCE4A3573DF6FAA0 /* Pods-StoryFlipUITests.modulemap */,
+				ABAEDFAA3E6A52CBB9C2AA0CE356B4CF /* Pods-StoryFlipUITests-acknowledgements.markdown */,
+				ECD1026AB62D011F470893364B9594B8 /* Pods-StoryFlipUITests-acknowledgements.plist */,
+				4DD66C4A7036DE1C27DB8CE8294B5314 /* Pods-StoryFlipUITests-dummy.m */,
+				138888D019A287D2D06A135D3ADAD36F /* Pods-StoryFlipUITests-frameworks.sh */,
+				F48B8E7B8C34C5511E160235F13C9003 /* Pods-StoryFlipUITests-resources.sh */,
+				71CB43F9589773CE677B6DF0EEBBFB55 /* Pods-StoryFlipUITests-umbrella.h */,
+				5DB8130E518BE0AD8948E939473E6B06 /* Pods-StoryFlipUITests.debug.xcconfig */,
+				BC257CDA3A0C64EB48C154483ACBBAAF /* Pods-StoryFlipUITests.release.xcconfig */,
+			);
+			name = "Pods-StoryFlipUITests";
+			path = "Target Support Files/Pods-StoryFlipUITests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				56B5520E311A45B61AD275E1AE3505A2 /* Pods */,
+				391BB10351EBD669F85F43E4E8AC7BA1 /* Products */,
+				B65710A36D41185B7E3BDF2EF4DA2586 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		840624C84D6518BF4917EBDDB27819BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68BD478020C8B324261EA347A4DC51F7 /* Info.plist */,
+				36B6B5E388B836B85080933A09E4A0A5 /* Regift.modulemap */,
+				FEB790D2D0AAE4509466E43DA18BB3AB /* Regift.xcconfig */,
+				9D74BEE7AB931B8CA3CF10BC9D6B0804 /* Regift-dummy.m */,
+				EECFBB72C95B3E585C906F05A6669B50 /* Regift-prefix.pch */,
+				DBB33F6DF5A239D7BF12C1BF6B9B4A3E /* Regift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Regift";
+			sourceTree = "<group>";
+		};
+		8AABBC9B6748B923A5B17CBC87FAFA4A /* Pods-StoryFlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB0812360D9CEC870F8FF0941E7591B /* Info.plist */,
+				9D12ACCC3122E1077602245A2B7EFD87 /* Pods-StoryFlipTests.modulemap */,
+				CD365E023E4F5ABA4DA5306D22EA1941 /* Pods-StoryFlipTests-acknowledgements.markdown */,
+				403E99045EF6306E657C58DA4D13BACA /* Pods-StoryFlipTests-acknowledgements.plist */,
+				68EE1E93647478D28B5457EFE2D9A1BE /* Pods-StoryFlipTests-dummy.m */,
+				9DF11FE93A81E4FC4850BA01979BE04F /* Pods-StoryFlipTests-frameworks.sh */,
+				31DDEEE30AB187A3B10DBC84B2DB9144 /* Pods-StoryFlipTests-resources.sh */,
+				CA265C91DAE7E234A8D2AD0269F53B41 /* Pods-StoryFlipTests-umbrella.h */,
+				35C024FA0C4AE39FFF9AE95306F25802 /* Pods-StoryFlipTests.debug.xcconfig */,
+				78DC995E8B0D77974916A318D1D0AF56 /* Pods-StoryFlipTests.release.xcconfig */,
+			);
+			name = "Pods-StoryFlipTests";
+			path = "Target Support Files/Pods-StoryFlipTests";
+			sourceTree = "<group>";
+		};
+		B65710A36D41185B7E3BDF2EF4DA2586 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD95EE328D86BEC1388465165D8E073A /* Pods-StoryFlip */,
+				8AABBC9B6748B923A5B17CBC87FAFA4A /* Pods-StoryFlipTests */,
+				74751EC4A59C56E9B64277423CE79EE6 /* Pods-StoryFlipUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD95EE328D86BEC1388465165D8E073A /* Pods-StoryFlip */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB5755E000A2366DEC543175ABBC57 /* Info.plist */,
+				7F28D0DE1070B03E70ED8B70098208C8 /* Pods-StoryFlip.modulemap */,
+				6C989B12185A1E89FD798CA736F3B57A /* Pods-StoryFlip-acknowledgements.markdown */,
+				8E59E9B3247D19FC75AE47B30745839B /* Pods-StoryFlip-acknowledgements.plist */,
+				F521889C0319898427B35A2406D5FB83 /* Pods-StoryFlip-dummy.m */,
+				0CC596FFF12CBD0B149FFF5BFE73D66F /* Pods-StoryFlip-frameworks.sh */,
+				D9849F5B9A8DE08B79068BC8828CB84F /* Pods-StoryFlip-resources.sh */,
+				11BF483CC10897A3F1CEFC965DDAB143 /* Pods-StoryFlip-umbrella.h */,
+				FD0815976D82A1C683AC1970ED663068 /* Pods-StoryFlip.debug.xcconfig */,
+				96D830FCB770E55E57A97C55C8C3DBC6 /* Pods-StoryFlip.release.xcconfig */,
+			);
+			name = "Pods-StoryFlip";
+			path = "Target Support Files/Pods-StoryFlip";
+			sourceTree = "<group>";
+		};
+		FA4030D4861C2C2C2360F070D80F1C9D /* Regift */ = {
+			isa = PBXGroup;
+			children = (
+				B816D85EE55E688F13091BC1263130FB /* AVAssetImageGeneratorTimePoints.swift */,
+				5B7626C1CB4B5EB81FB6F876B0AA5DBE /* Regift.h */,
+				26CEA1FE352F3355E0A584FCB306F854 /* Regift.swift */,
+				840624C84D6518BF4917EBDDB27819BA /* Support Files */,
+			);
+			name = Regift;
+			path = Regift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		563B355007BBD30E0B672ECC759D920D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE303B33F6E058E57225116083688032 /* Pods-StoryFlipTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893BE63AC5070E658A8F0FE6BE200BF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790D302F4C1CC70B86AE07C8EB05B780 /* Regift-umbrella.h in Headers */,
+				E67D9B172F619C9E1DE9A074D975A2BC /* Regift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81CE1B6FE36FA05199BF4716CB725F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C036BC317564475646CF02672A31DED /* Pods-StoryFlipUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01C185DA39538CEF2EC10F6CD2F39FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E27BABF9B455ABD1917EA3810AB5C /* Pods-StoryFlip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36C8214D2A3DC33C38267CA4661475BB /* Pods-StoryFlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3635A44B922190661E7C9DDE9891F4 /* Build configuration list for PBXNativeTarget "Pods-StoryFlipUITests" */;
+			buildPhases = (
+				C298451F6417F4657C28357D0685078C /* Sources */,
+				5572B7B1342698DD6881124515B2C1A3 /* Frameworks */,
+				B81CE1B6FE36FA05199BF4716CB725F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StoryFlipUITests";
+			productName = "Pods-StoryFlipUITests";
+			productReference = DB2CBF9A144E59762A40C135E66C7387 /* Pods_StoryFlipUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97EEFC9875AFEA07CC92D9237CF3521F /* Pods-StoryFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3970D3C1AF63A83A11D96E9189DE05 /* Build configuration list for PBXNativeTarget "Pods-StoryFlip" */;
+			buildPhases = (
+				06FC27C8B0C6375EF131A5C161B29006 /* Sources */,
+				BCE224133AADA31F04485F98C5E88188 /* Frameworks */,
+				D01C185DA39538CEF2EC10F6CD2F39FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002F2B3A1E830B98F3DFC99D4D578173 /* PBXTargetDependency */,
+			);
+			name = "Pods-StoryFlip";
+			productName = "Pods-StoryFlip";
+			productReference = 31888157212CE83080F535E273320651 /* Pods_StoryFlip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3E882C85A14AE74471A1A400FC4E60F /* Pods-StoryFlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDEF5D40E76E921E8E8BBD022DFC387 /* Build configuration list for PBXNativeTarget "Pods-StoryFlipTests" */;
+			buildPhases = (
+				E78B488B96B266E884EF2F9C31E96319 /* Sources */,
+				4FB8948CB735D14BD0E3092024F0201D /* Frameworks */,
+				563B355007BBD30E0B672ECC759D920D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StoryFlipTests";
+			productName = "Pods-StoryFlipTests";
+			productReference = 84EDBACCDAE663B9B027D257EAD4DC61 /* Pods_StoryFlipTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D347C3A320BF5A5964AEA89C5DC4FF7C /* Regift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9718FB3AE449D630A198F50D9DC1425 /* Build configuration list for PBXNativeTarget "Regift" */;
+			buildPhases = (
+				D7F44CAF9CE8944C6440E2ED1FC97AAF /* Sources */,
+				045BB2649B4A6F4FB08FE21217B0D5C8 /* Frameworks */,
+				893BE63AC5070E658A8F0FE6BE200BF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Regift;
+			productName = Regift;
+			productReference = AB58066BF889A89BAB8E14E00CE23A9A /* Regift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 391BB10351EBD669F85F43E4E8AC7BA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97EEFC9875AFEA07CC92D9237CF3521F /* Pods-StoryFlip */,
+				A3E882C85A14AE74471A1A400FC4E60F /* Pods-StoryFlipTests */,
+				36C8214D2A3DC33C38267CA4661475BB /* Pods-StoryFlipUITests */,
+				D347C3A320BF5A5964AEA89C5DC4FF7C /* Regift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06FC27C8B0C6375EF131A5C161B29006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C42F89A849CF7AFF2C61F169EC2EAD /* Pods-StoryFlip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C298451F6417F4657C28357D0685078C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A79D72FE09A1360DE502F0AC7609D04 /* Pods-StoryFlipUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F44CAF9CE8944C6440E2ED1FC97AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98184C541B13C5BB9F08202BEA0D2964 /* AVAssetImageGeneratorTimePoints.swift in Sources */,
+				C668E220F77E0ED0DCC9056160B3DED1 /* Regift-dummy.m in Sources */,
+				5E671D1CBDB5F269A60C50ADC7770422 /* Regift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78B488B96B266E884EF2F9C31E96319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC0ECCA728796691F0573A53F3FB1C8 /* Pods-StoryFlipTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002F2B3A1E830B98F3DFC99D4D578173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Regift;
+			target = D347C3A320BF5A5964AEA89C5DC4FF7C /* Regift */;
+			targetProxy = 5212E89202116FC6EEB2207639374D9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D7FDAE9F5A821029357C8E2FA844CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB790D2D0AAE4509466E43DA18BB3AB /* Regift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Regift/Regift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Regift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Regift/Regift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Regift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A85A614CF32FF1E1B1F7EEBF7DF1851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC257CDA3A0C64EB48C154483ACBBAAF /* Pods-StoryFlipUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StoryFlipUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StoryFlipUITests/Pods-StoryFlipUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StoryFlipUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5147045DE94549EA50EA3FFEDFFDBF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C024FA0C4AE39FFF9AE95306F25802 /* Pods-StoryFlipTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StoryFlipTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StoryFlipTests/Pods-StoryFlipTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StoryFlipTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5434FC543C3A92EEB367CC029C892CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB790D2D0AAE4509466E43DA18BB3AB /* Regift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Regift/Regift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Regift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Regift/Regift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Regift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9519985EC73E53B9E8EA1E6A4C71A340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78DC995E8B0D77974916A318D1D0AF56 /* Pods-StoryFlipTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StoryFlipTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StoryFlipTests/Pods-StoryFlipTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StoryFlipTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C73B3713592D55E56F3A0C05658789A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB8130E518BE0AD8948E939473E6B06 /* Pods-StoryFlipUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StoryFlipUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StoryFlipUITests/Pods-StoryFlipUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StoryFlipUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBC55B6E3B4C19C2FE156FC5E365BE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0815976D82A1C683AC1970ED663068 /* Pods-StoryFlip.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StoryFlip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StoryFlip/Pods-StoryFlip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StoryFlip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F024AE21D984B0F6087F61B3DA1A924A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D830FCB770E55E57A97C55C8C3DBC6 /* Pods-StoryFlip.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StoryFlip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StoryFlip/Pods-StoryFlip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StoryFlip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDEF5D40E76E921E8E8BBD022DFC387 /* Build configuration list for PBXNativeTarget "Pods-StoryFlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5147045DE94549EA50EA3FFEDFFDBF0A /* Debug */,
+				9519985EC73E53B9E8EA1E6A4C71A340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D3970D3C1AF63A83A11D96E9189DE05 /* Build configuration list for PBXNativeTarget "Pods-StoryFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC55B6E3B4C19C2FE156FC5E365BE87 /* Debug */,
+				F024AE21D984B0F6087F61B3DA1A924A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9718FB3AE449D630A198F50D9DC1425 /* Build configuration list for PBXNativeTarget "Regift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7FDAE9F5A821029357C8E2FA844CB5 /* Debug */,
+				5434FC543C3A92EEB367CC029C892CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3635A44B922190661E7C9DDE9891F4 /* Build configuration list for PBXNativeTarget "Pods-StoryFlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73B3713592D55E56F3A0C05658789A0 /* Debug */,
+				4A85A614CF32FF1E1B1F7EEBF7DF1851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
