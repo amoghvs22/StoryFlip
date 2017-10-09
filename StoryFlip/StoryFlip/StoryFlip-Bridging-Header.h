@@ -11,4 +11,3 @@
 
 
 #endif /* StoryFlip_Bridging_Header_h */
-#import "Regift.h"

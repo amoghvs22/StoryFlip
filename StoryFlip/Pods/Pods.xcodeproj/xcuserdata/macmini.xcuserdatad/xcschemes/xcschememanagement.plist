@@ -19,11 +19,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Regift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -32,17 +27,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>97EEFC9875AFEA07CC92D9237CF3521F</key>
+		<key>3B8FA07FA90FD4416E9D61CC3768CBC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>A3E882C85A14AE74471A1A400FC4E60F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D347C3A320BF5A5964AEA89C5DC4FF7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -6,7 +6,7 @@ target 'StoryFlip' do
   use_frameworks!
 
   # Pods for StoryFlip
-  pod "Regift"
+
   target 'StoryFlipTests' do
     inherit! :search_paths
     # Pods for testing

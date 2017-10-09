@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "97EEFC9875AFEA07CC92D9237CF3521F"
+               BlueprintIdentifier = "3B8FA07FA90FD4416E9D61CC3768CBC5"
                BuildableName = "Pods_StoryFlip.framework"
                BlueprintName = "Pods-StoryFlip"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "97EEFC9875AFEA07CC92D9237CF3521F"
+            BlueprintIdentifier = "3B8FA07FA90FD4416E9D61CC3768CBC5"
             BuildableName = "Pods_StoryFlip.framework"
             BlueprintName = "Pods-StoryFlip"
             ReferencedContainer = "container:Pods.xcodeproj">

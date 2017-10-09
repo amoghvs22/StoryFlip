@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		67140056535326ACD86F865C /* Pods_StoryFlipUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C7E0016D6810DDC6B4C629 /* Pods_StoryFlipUITests.framework */; };
+		9A3CD4D91F8B9B6400EBCA00 /* VideoConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CD4D81F8B9B6400EBCA00 /* VideoConversion.swift */; };
 		9A3FC9F21F8A1FC4000A8411 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FC9F11F8A1FC4000A8411 /* UserInfo.swift */; };
 		9A3FC9F51F8A257D000A8411 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FC9F41F8A257D000A8411 /* UIImageExtension.swift */; };
 		9A3FC9FE1F8A3B3B000A8411 /* videoss in Resources */ = {isa = PBXBuildFile; fileRef = 9A3FC9FD1F8A3B3B000A8411 /* videoss */; };
+		9A7C695E1F8BA5AC009E9943 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7C695D1F8BA5AC009E9943 /* Media.swift */; };
 		9AA362651F88AB5500A9F083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA362641F88AB5500A9F083 /* AppDelegate.swift */; };
 		9AA362671F88AB5500A9F083 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA362661F88AB5500A9F083 /* ViewController.swift */; };
 		9AA3626A1F88AB5500A9F083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA362681F88AB5500A9F083 /* Main.storyboard */; };
@@ -49,10 +51,12 @@
 		4C6BB69E4CF8D4CABF21B456 /* Pods-StoryFlip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryFlip.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoryFlip/Pods-StoryFlip.release.xcconfig"; sourceTree = "<group>"; };
 		706516BA8CC4BA835A66B4AA /* Pods-StoryFlipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryFlipUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoryFlipUITests/Pods-StoryFlipUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		77C7E0016D6810DDC6B4C629 /* Pods_StoryFlipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryFlipUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3CD4D81F8B9B6400EBCA00 /* VideoConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoConversion.swift; sourceTree = "<group>"; };
 		9A3FC9F11F8A1FC4000A8411 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		9A3FC9F41F8A257D000A8411 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		9A3FC9FD1F8A3B3B000A8411 /* videoss */ = {isa = PBXFileReference; lastKnownFileType = folder; path = videoss; sourceTree = "<group>"; };
 		9A3FC9FF1F8A3BE7000A8411 /* StoryFlip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryFlip-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A7C695D1F8BA5AC009E9943 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		9AA362611F88AB5500A9F083 /* StoryFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA362641F88AB5500A9F083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AA362661F88AB5500A9F083 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,10 +153,12 @@
 				9A3FC9FD1F8A3B3B000A8411 /* videoss */,
 				9AA362641F88AB5500A9F083 /* AppDelegate.swift */,
 				9AA362661F88AB5500A9F083 /* ViewController.swift */,
+				9AA362D01F88F4CE00A9F083 /* StoryViewController.swift */,
 				9AA362941F88B4E400A9F083 /* CustomCell.swift */,
 				9A3FC9F11F8A1FC4000A8411 /* UserInfo.swift */,
+				9A7C695D1F8BA5AC009E9943 /* Media.swift */,
+				9A3CD4D81F8B9B6400EBCA00 /* VideoConversion.swift */,
 				9A3FC9F31F8A2566000A8411 /* Extensions */,
-				9AA362D01F88F4CE00A9F083 /* StoryViewController.swift */,
 				9A3FC9FF1F8A3BE7000A8411 /* StoryFlip-Bridging-Header.h */,
 				9AA362681F88AB5500A9F083 /* Main.storyboard */,
 				9AA3626B1F88AB5500A9F083 /* Assets.xcassets */,
@@ -267,6 +273,7 @@
 				TargetAttributes = {
 					9AA362601F88AB5400A9F083 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7J2PZHZFPY;
 						ProvisioningStyle = Automatic;
 					};
 					9AA362741F88AB5600A9F083 = {
@@ -474,9 +481,11 @@
 			files = (
 				9AA362D11F88F4CE00A9F083 /* StoryViewController.swift in Sources */,
 				9AA362671F88AB5500A9F083 /* ViewController.swift in Sources */,
+				9A3CD4D91F8B9B6400EBCA00 /* VideoConversion.swift in Sources */,
 				9AA362951F88B4E400A9F083 /* CustomCell.swift in Sources */,
 				9A3FC9F21F8A1FC4000A8411 /* UserInfo.swift in Sources */,
 				9AA362651F88AB5500A9F083 /* AppDelegate.swift in Sources */,
+				9A7C695E1F8BA5AC009E9943 /* Media.swift in Sources */,
 				9A3FC9F51F8A257D000A8411 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,7 +637,9 @@
 			baseConfigurationReference = 0373767CFE865880432401B4 /* Pods-StoryFlip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J2PZHZFPY;
 				INFOPLIST_FILE = StoryFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.borqs.StoryFlip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -642,7 +653,9 @@
 			baseConfigurationReference = 4C6BB69E4CF8D4CABF21B456 /* Pods-StoryFlip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J2PZHZFPY;
 				INFOPLIST_FILE = StoryFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.borqs.StoryFlip;
 				PRODUCT_NAME = "$(TARGET_NAME)";

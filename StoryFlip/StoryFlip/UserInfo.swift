@@ -11,5 +11,5 @@ import UIKit
 class UserInfo: NSObject {
     var profileImage: UIImage?
     var userName: String?
-    var images: [String]?
+    var images: [Media]?
 }

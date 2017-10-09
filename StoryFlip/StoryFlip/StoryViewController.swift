@@ -8,7 +8,6 @@
 
 import UIKit
 import MobileCoreServices
-import Regift
 
 class StoryViewController: UIViewController {
 //    NSURL *sourceMovieURL = [NSURL fileURLWithPath:somePath];
@@ -23,6 +22,8 @@ class StoryViewController: UIViewController {
     var storiesCount: Int!
     var barArray = [UIProgressView]()
     var imgView: UIImageView!
+    public var userInfo: UserInfo?
+    var currentMedia: Media?
     
     @IBOutlet weak var imageView: UIImageView!
 
@@ -30,7 +31,6 @@ class StoryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Regift
         // Do any additional setup after loading the view, typically from a nib.
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tapBlurButton(_:)))
         tapGesture.numberOfTapsRequired = 1
@@ -39,8 +39,8 @@ class StoryViewController: UIViewController {
         imgView = UIImageView()
         imgView.frame = CGRect(x: 0.0, y: 0.0, width: self.view.frame.width, height: self.view.frame.height)
         self.view.addSubview(imgView)
-
-        startStories(numberOfStories: 3)
+        storiesCount = userInfo?.images?.count
+        startStories(numberOfStories: storiesCount)
     }
     
     func tapBlurButton(_ sender: UITapGestureRecognizer) {
@@ -68,12 +68,17 @@ class StoryViewController: UIViewController {
         progressView.trackTintColor = UIColor.white
         progressV?.addSubview(progressView)
     }
-    
+    func clicked(sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     func startStories(numberOfStories: Int) {
         var count = 0
-        storiesCount = numberOfStories
         progressV = UIView(frame: CGRect(x: 10.0, y: 0.0, width: self.view.frame.size.width - 20, height: 15.0))
+        let button = UIButton(frame: CGRect(x: self.view.frame.size.width - 50, y: 20.0, width: 40.0, height: 40.0))
+        button.addTarget(self, action: #selector(clicked), for: .touchUpInside)
+        button.setImage(UIImage(named:"x_mark"), for:.normal)
+        self.view.addSubview(button)
         self.view.addSubview(progressV!)
         var width = progressV!.frame.size.width - CGFloat(10 * (numberOfStories - 1))
         width = width/CGFloat(numberOfStories)
@@ -101,15 +106,15 @@ class StoryViewController: UIViewController {
             barArray.append(progressView)
             count += 1
         }
-        redrawAgain(index: 0)
+        //currentMedia = userInfo?.images?[selectedIndex]
+        //setTimer()
         timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector:#selector(StoryViewController.setProgres), userInfo: nil, repeats: true)
         setProgres()
-        let filePath = ""
-        let extensions = NSURL(fileURLWithPath: filePath).pathExtension
-        let uti = UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, extensions as! CFString, nil)
-        if UTTypeConformsTo((uti?.takeRetainedValue())!, kUTTypeImage) {
-            print("This is an image!")
-        }
+    }
+    
+    func setTimer() {
+        timer?.invalidate()
+        timer = Timer.scheduledTimer(timeInterval: TimeInterval(currentMedia!.duration!), target: self, selector:#selector(StoryViewController.setProgres), userInfo: nil, repeats: true)
     }
     
     func redrawAgain(index: Int) {
@@ -131,9 +136,12 @@ class StoryViewController: UIViewController {
             self.dismiss(animated: true, completion: nil)
         }
         else {
+//            self.setTimer()
             let bar = barArray[selectedIndex]
+            self.currentMedia = self.userInfo?.images![self.selectedIndex]
             change(progressBar: bar)
-            imgView.image = UIImage(named: "pic\(selectedIndex + 1)")
+            print("\(selectedIndex) url: \(currentMedia!.imageURL!.absoluteString)")
+            imgView.setImageFromURl(stringImageUrl: (currentMedia!.imageURL!.absoluteString))
             selectedIndex += 1
         }
     }
@@ -144,7 +152,9 @@ class StoryViewController: UIViewController {
         
         UIView.animate(withDuration: 5, delay: 0.0, options: [.curveLinear, .allowUserInteraction, .beginFromCurrentState], animations: {
             progressBar.setProgress(1.0, animated: true)
-        }, completion: nil)
+        }, completion: { (result) in
+            print("Completion")
+        })
     }
     
     override var prefersStatusBarHidden: Bool {

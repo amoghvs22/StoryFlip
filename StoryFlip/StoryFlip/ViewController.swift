@@ -18,26 +18,46 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     var userInfoArray = [UserInfo]()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         self.collectionView!.register(CustomCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-        
+        var defaultURL = Bundle.main.resourcePath! + "/videoss"
+
         let info1 = UserInfo()
         info1.profileImage = UIImage(named: "profilePic1")
         info1.userName = "Amogh"
-        info1.images = ["pic1", "pic2", "pic3"]
+        let media: Media  = Media(url: defaultURL + "/pic1.jpeg", type: Type.Photo, duration: 5)
+        let media1:Media  = Media(url: defaultURL + "/video1.mp4", type: Type.Video, duration: nil)
+        let media2: Media  = Media(url: defaultURL + "/pic2.jpg", type: Type.Photo, duration: 5)
+        info1.images = [media, media1, media2]
         userInfoArray.append(info1)
         
         let info2 = UserInfo()
         info2.profileImage = UIImage(named: "profilePic2")
         info2.userName = "Amogh"
-        info2.images = ["pic1", "pic2"]
+        let media3: Media  = Media(url: defaultURL + "/video1.mp4", type: Type.Video, duration: nil)
+        let media4: Media  = Media(url: defaultURL + "/pic1.jpeg", type: Type.Photo, duration: 5)
+        let media5: Media  = Media(url: defaultURL + "/video2.mp4", type: Type.Video, duration: nil)
+        info2.images = [media3, media4, media5]
         userInfoArray.append(info2)
         
         collectionView.reloadData()
+        
+//        if let path = Bundle.main.resourcePath {
+//            let fullPath = path + "/videoss/video1.mp4"
+//            let url = URL(fileURLWithPath: fullPath)
+//            let url1 = VideoConversion().getFrame(url: url)
+//            let url2 = url1.0
+//            let duration = url1.1
+//            let imageview = UIImageView(frame: CGRect(x: 0.0, y: 0.0, width: 150.0, height: 150.0))
+//            imageview.setImageFromURl(stringImageUrl: url2.absoluteString)
+//            self.view.addSubview(imageview)
+//            
+//            
+//        }
+
         
     }
     
@@ -94,6 +114,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vc = StoryViewController()
+        let cell = collectionView.cellForItem(at: indexPath) as! CustomCell
+        vc.userInfo = cell.info
         self.present(vc, animated: true, completion: nil)
     }
     
